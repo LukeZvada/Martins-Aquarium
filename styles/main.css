@@ -1,0 +1,31 @@
+@import"./quotes";
+
+
+
+#container { 
+    display: flex; 
+}
+
+.tips { 
+    border: 3px dotted forestgreen;
+}
+
+.location { 
+    border: 3px dotted orangered;
+}
+
+.fishes { 
+    border: 3px dotted dodgerblue;
+}
+
+.siteLogo { 
+    height: 10em;
+}
+
+.siteTitle { 
+    height: 10rem;
+}
+
+.header { 
+    flex
+}

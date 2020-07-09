@@ -9,10 +9,12 @@ h1 {
 .header {
     display: flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: aliceblue
 }
 
 #container { 
     display: flex; 
+    background: aliceblue
 }
 
 .tips { 
@@ -25,7 +27,7 @@ h1 {
 }
 
 .fishes { 
-    border: 3px groove dodgerblue;
+    border: 1.5px groove dodgerblue;
     background-color: rgba(255, 255, 255, 0.795);
 }
 
@@ -36,6 +38,7 @@ h1 {
 
 .siteLogo { 
     height: 10em;
+    padding-left: 2rem;
 }
 
 .siteTitle { 
@@ -67,6 +70,7 @@ h1 {
 .content--left {
     margin-right: 4rem;
     flex: 3;
+    padding-left: 3rem;
 }
 
 .content--right {
@@ -85,7 +89,6 @@ h1 {
     font-size: 20px;
     font-style: italic;
     justify-content: center;
-    
 }
 
 .zoom { 
@@ -97,7 +100,7 @@ h1 {
 }
 
 .zoom:hover { 
-    transform: scale(1.5);
+    transform: scale(1.5); /* execution */
 }
 
 .location--card { 

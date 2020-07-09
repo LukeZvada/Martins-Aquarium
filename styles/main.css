@@ -1,21 +1,33 @@
-@import"./quotes";
 
+h1 { 
+    text-shadow: 1.5px 1.5px 6px #858585;
 
+}
+
+.header {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 #container { 
     display: flex; 
 }
 
 .tips { 
-    border: 3px dotted forestgreen;
+    border: 3px groove forestgreen;
 }
 
 .location { 
-    border: 3px dotted orangered;
+    border: 3px groove orangered;
 }
 
 .fishes { 
-    border: 3px dotted dodgerblue;
+    border: 3px groove dodgerblue;
+    background-color: rgb(44, 156, 248);
+}
+
+.quote { 
+    border: 3px groove goldenrod;
 }
 
 .siteLogo { 
@@ -23,9 +35,54 @@
 }
 
 .siteTitle { 
-    height: 10rem;
+    height: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.header { 
-    flex
+.card { 
+    padding: 2rem;
+}
+
+.image--card {
+    margin-bottom: 1.5rem;
+}
+
+.content--left {
+    margin-right: 4rem;
+    flex: 3;
+}
+
+.content--right {
+    margin-right: 4rem;
+    flex: 3;
+}
+
+.center { 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fishHeader {
+    display: flex; 
+    font-size: 20px;
+    font-style: italic;
+    justify-content: center;
+    
+}
+
+.zoom { 
+    padding: 5px;;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover { 
+    transform: scale(1.5);
 }

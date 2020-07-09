@@ -19,6 +19,7 @@ h1 {
 
 .tips { 
     border: 3px groove forestgreen;
+    background: white;
 }
 
 .location { 
@@ -110,5 +111,19 @@ h1 {
 
 .fishText { 
     display: flex;
+    justify-content: center;
+}
+
+.tipsHeader { 
+    display: flex; 
+    font-size: 14px;
+    font-style: normal;
+    justify-content: center;
+}
+
+.tipTitle { 
+    display: flex; 
+    font-size: 20px;
+    font-style: italic;
     justify-content: center;
 }

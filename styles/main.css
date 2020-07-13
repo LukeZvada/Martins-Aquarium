@@ -20,21 +20,25 @@ h1 {
 .tips { 
     border: 3px groove forestgreen;
     background: white;
+    border-radius: 1rem;
 }
 
 .location { 
     border: 3px groove orangered;
     background-color: rgba(255, 255, 255, 0.795);
+    border-radius: 1rem;
 }
 
 .fishes { 
     border: 1.5px groove dodgerblue;
     background-color: rgba(255, 255, 255, 0.795);
+    border-radius: 1rem;
 }
 
 .quote { 
     border: 3px groove goldenrod;
     background: rgba(255, 255, 255, 0.795);
+    border-radius: 1rem;
 }
 
 .siteLogo { 
@@ -126,4 +130,22 @@ h1 {
     font-size: 20px;
     font-style: italic;
     justify-content: center;
+}
+
+.quote__text { 
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+}
+
+.location__text { 
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+}
+
+.tips__text { 
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
 }

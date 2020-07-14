@@ -14,7 +14,7 @@ export const quoteList = () => {
 
     contentElement.innerHTML += `
     <article class="quote">
-        <h3 class=">Quotes</h1>
+        <h3 class="fishHeader">Quotes</h1>
             ${quoteHTMLRep}
     </article>
     `

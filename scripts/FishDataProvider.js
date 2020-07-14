@@ -1,7 +1,7 @@
 const fishCollection = [
     { 
         name: "Dory",
-        type: "blue Tang",
+        type: "Blue Tang",
         length: 4,
         location: "Great Barrier Reef",
         diet: "Plankton",

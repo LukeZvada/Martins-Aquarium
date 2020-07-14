@@ -13,3 +13,6 @@
 
 import {fishList} from "./fishLists.js"
 fishList()
+
+import {quoteList} from "./quoteList.js"
+quoteList()

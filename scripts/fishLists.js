@@ -5,7 +5,7 @@ import {useFish} from "./FishDataProvider.js"
 import {fishAsHtml} from "./Fish.js"
 
 export const fishList = () => { 
-    const contentElement = document.querySelector(".content--left") //finding where to put it in the HTML doc
+    const contentElement = document.querySelector(".fishList") //finding where to put it in the HTML doc
 
     const fishes = useFish()
 

@@ -16,3 +16,6 @@ fishList()
 
 import {quoteList} from "./quoteList.js"
 quoteList()
+
+import {locationList} from "./locationLists.js"
+locationList()

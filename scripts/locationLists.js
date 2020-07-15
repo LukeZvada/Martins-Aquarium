@@ -13,7 +13,7 @@ export const locationList = () => {
     }
 
     contentElement.innerHTML += `
-    <article class="location">
+    <article>
         ${locationHTMLRep}
     </article>
     `

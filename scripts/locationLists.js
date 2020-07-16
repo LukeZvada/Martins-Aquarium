@@ -17,4 +17,5 @@ export const locationList = () => {
         ${locationHTMLRep}
     </article>
     `
+    
 }

@@ -12,13 +12,13 @@
 //}
 
 import {fishList} from "./fishLists.js"
-fishList()
-
 import {quoteList} from "./quoteList.js"
-quoteList()
-
 import {locationList} from "./locationLists.js"
-locationList()
-
 import {tipsList} from "./tipsList.js"
+
+fishList()
+quoteList()
+locationList()
 tipsList()
+
+
